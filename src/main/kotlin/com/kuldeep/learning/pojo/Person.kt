@@ -1,6 +1,9 @@
-package com.kuldeep.learning.pojo.open
+package com.kuldeep.learning.pojo
 
-class Person(val firstName:String, val lastName:String, val age:Int, val email: String) {
+class Person(private var firstName:String, private var lastName:String, val age:Int, val email: String) {
+    val name: String
+        get() = "$firstName $lastName"
+
     override fun equals(other: Any?): Boolean = other is Person
             && firstName == other.firstName
             && lastName == other.lastName
