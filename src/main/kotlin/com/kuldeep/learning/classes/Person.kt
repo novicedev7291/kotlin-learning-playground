@@ -1,4 +1,4 @@
-package com.kuldeep.learning.pojo
+package com.kuldeep.learning.classes
 
 class Person(private var firstName:String, private var lastName:String, val age:Int, val email: String) {
     val name: String

@@ -1,4 +1,4 @@
-package com.kuldeep.learning.pojo
+package com.kuldeep.learning.classes
 
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.natpryce.hamkrest.assertion.assertThat

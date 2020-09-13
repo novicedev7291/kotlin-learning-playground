@@ -1,4 +1,4 @@
-package com.kuldeep.learning.pojo
+package com.kuldeep.learning.classes
 
 data class Product(val code: String, val price: Double)
 
